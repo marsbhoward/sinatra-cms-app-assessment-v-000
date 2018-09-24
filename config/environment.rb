@@ -9,5 +9,5 @@ ActiveRecord::Base.establish_connection(
   :database => "db/#{ENV['SINATRA_ENV']}.sqlite"
 )
 
-
+require 'pry'
 require_all 'app'
